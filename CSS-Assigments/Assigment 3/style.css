@@ -1,0 +1,149 @@
+
+
+
+.nav1 {
+    height: 60px;
+    background: rgb(241, 204, 155);
+display: flex;
+align-items:center;
+justify-content: space-between;
+
+padding-left: 8px;
+padding-right: 8px;
+cursor: pointer;
+position: fixed;
+top: 0;
+width: 98.2%;
+}
+
+.nav1 > div > i {font-size: 40px;}
+
+.logo > span{font-size:25px;
+font-weight:bolder ;}
+
+.end > i:hover {
+    color: white;
+
+}
+
+.center > span{padding-left: 10px;}
+
+.center > span:hover{
+    text-decoration: underline;
+    }
+
+.nav1 >i {font-size: 30px;}
+
+.heading1 {text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.parent1 { 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+
+}
+
+.list{
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+border: 1px solid rgb(201, 214, 224);
+}
+
+.list >ul >li{cursor: pointer;
+}
+
+.list >ul >li:hover{text-decoration: underline;}
+
+/* .head-image {
+} */
+
+.contact {height: 60px;
+width: 60px;
+border-radius: 20px;
+background: rgb(241, 204, 155);
+display: flex;
+text-align: center;
+justify-content: center;
+cursor: pointer;
+position: fixed;
+right: 15;
+bottom: 20;
+
+}
+
+#sms {font-size: 40px;}
+
+.nav2  {height: 50px;
+    background: rgb(228, 226, 226);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 8px;
+    padding-left: 8px;
+   
+    
+    }
+ 
+.nav2 > span > i {font-size: 20px;}    
+
+    .nav2 > span {cursor: pointer;}
+
+.nav2:hover{background: #f5c2c2;}
+
+.boxes {
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    }
+
+.box {display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 8px;
+padding: 5px;
+cursor: pointer;}
+
+.box > img {height: 80px;
+width: 80px;
+border-radius: 35px;}
+
+.box > span:hover {color: rgb(241, 152, 152);}
+
+.long-box-parent {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+}
+
+div > .long-box > img {height: 350;
+width: 250px;
+}
+
+.long-box { width: 250px;
+    height: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 0px;
+}
+    
+.long-box:hover{box-shadow: 1px 1px 1px 1px grey;}
+
+
+

@@ -1,0 +1,15 @@
+*{background: bisque;}
+.mainheading {color: rgb(0, 0, 0);
+text-align: center;}
+.parent > div {border: 1px solid rgb(255, 255, 255);
+width: 200px;
+height: 300px;
+margin: 0px auto;
+display: inline-block;
+text-align: center;
+margin-left: 165px;
+overflow-y: scroll;}
+
+
+#link { font-size: 60px;}
+.facebook:hover,.instagram:hover,.twitter:hover {color: darkgrey;}

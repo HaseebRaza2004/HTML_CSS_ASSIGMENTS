@@ -1,0 +1,20 @@
+nav {background:burlywood;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;}
+    span:hover,i:hover {color: blanchedalmond;
+    cursor: pointer;
+    text-decoration: underline;}
+
+    .parent{margin: 10px 6%;}
+    
+    .child{border: 3px solid black;
+        width: 150px;
+        height: 110px;
+       display: inline-block;
+       text-align: center;
+       padding: 10px ;
+       margin-top: 5px;
+       
+        font-size: 30px;
+    }

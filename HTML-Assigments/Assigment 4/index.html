@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         
+        <h1 align="center">Addmission Form</h1>
+        <form>
+            <ul>
+                <label>Full Name <sup>*</sup><input type="text" name="text" id="full name" placeolderh="enter full name"> </label>
+                <br>
+                <label>Father Name <sup>*</sup><input type="text" name="text" id="father name" placeholder="enter full name"> </label>
+                <br>
+                <label>Email <sup>*</sup><input type="text" name="text" id="email" required placeolderh="enter email"></label>
+                <br>
+                <label>Phone No <sup>*</sup><input type="number" name="number" id="phone no" required placeholder="enter number" maxlength="11"></label>
+                <br>
+                <label>CNIC  <sup>*</sup><input type="number" name="number" id="CNIC" placeholder="CNIC no" maxlength="13"></label>
+                <br>
+                <label>Father CNIC <sup>*</sup> <input type="number" name="number" id="father CNIC" placeholder=" father CNIC no" maxlength="13" ></label>
+                <br>
+                <label>Date Of Birth <sup>*</sup> <input type="date" name="date" id="date of birth" placeholder="enter birth date"></label>
+                <br>
+                Select Gender <sup>*</sup>
+                <label>Male <input checked type="radio" name="Gender" value="Male"></label>
+                <label>Female <input type="radio" name="Gender" value="Female"></label>
+                <br>
+                <select name="country" id="country">
+                <option value="">Select Country</option>
+                <option value="pak">Pakistan</option>
+                <option value="ind">India</option>
+                <option value="afg">Afghanistan</option>
+                <option value="tur">Turkey</option>
+                <option value="chi">China</option>
+                <option value="rus">Russia</option>
+                <option value="ame">America</option>
+                <option value="ger">Germany</option>
+                <option value="irn">Iran</option>
+                <option value="irq">Iraq</option>
+                
+            </select>
+                   <br>
+                   <label>Address <sup>*</sup><input type="text" name="Address" id="Address" required></label>
+                   <br>
+                   Qualifications <sup>*</sup>
+                   <br>
+                   <label>Matric<input type="checkbox" name="Qualifications" id="Qualifications"></label>
+                   <br>
+                   <label>Intermediate<input type="checkbox" name="Qualifications" id="Qualifications"></label>
+                   <br>
+                   <label>Diploma<input type="checkbox" name="Qualifications" id="Qualifications"></label>
+                   <br>
+                   <label>Above<input type="checkbox" name="Qualifications" id="Qualifications"></label>
+                   <br>
+                   <label>Image <sup>*</sup><input type="file" id="Image" required></label>
+                   <br>
+                   <label ><input type="submit" name="submit" id="submit"></label>
+             </ul>
+        </form>
+    </body>
+</html>
